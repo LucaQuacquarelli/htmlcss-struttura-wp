@@ -4,19 +4,31 @@
     padding: 0;
 }
 
+.container {
+    margin: 25px 100px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 header {
     height: 100px;
     background-color: #E579E6;
+    margin-bottom: 20px;
 }
 
 nav {
-    height: 200px;
+    height: 400px;
     background-color: #E1D67A;
+    margin-bottom: 20px;
 }
 
 main {
-    height: 600px;
     background-color: #0086FF;
+    padding-bottom: 20px;
 }
 
 div, aside, section {
@@ -25,17 +37,24 @@ div, aside, section {
 
 div {
     height: 80px;
+    margin-bottom: 20px;
 }
 
 aside {
-    height: 100px;
+    width: 24%;
+    height: 500px;
+    float: left;
 }
 
 section {
-    height: 300px;
+    width: 50%;
+    height: 500px;
+    margin: 0 1%;
+    float: left;
 }
 
 footer {
-    height: 70px;
+    height: 50px;
     background-color: #8800FD;
+    margin-top: 10px;
 }
