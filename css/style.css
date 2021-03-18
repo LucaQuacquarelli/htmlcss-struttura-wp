@@ -1,10 +1,11 @@
+/* common */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-.container {
+body {
     margin: 25px 100px;
 }
 
@@ -14,21 +15,29 @@
     clear: both;
 }
 
+header, nav, div {
+    margin-bottom: 20px;
+}
+
+aside, section {
+    float: left;
+    height: 500px;
+}
+
+/* debug */
 header {
     height: 100px;
     background-color: #E579E6;
-    margin-bottom: 20px;
 }
 
 nav {
     height: 400px;
     background-color: #E1D67A;
-    margin-bottom: 20px;
 }
 
 main {
-    background-color: #0086FF;
     padding-bottom: 20px;
+    background-color: #0086FF;
 }
 
 div, aside, section {
@@ -37,24 +46,19 @@ div, aside, section {
 
 div {
     height: 80px;
-    margin-bottom: 20px;
 }
 
 aside {
     width: 24%;
-    height: 500px;
-    float: left;
 }
 
 section {
-    width: 50%;
-    height: 500px;
+    width: 50%; 
     margin: 0 1%;
-    float: left;
 }
 
 footer {
     height: 50px;
-    background-color: #8800FD;
     margin-top: 10px;
+    background-color: #8800FD;
 }
