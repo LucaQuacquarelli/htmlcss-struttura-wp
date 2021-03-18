@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 100px;
+    background-color: #E579E6;
+}
+
+nav {
+    height: 200px;
+    background-color: #E1D67A;
+}
+
+main {
+    height: 600px;
+    background-color: #0086FF;
+}
+
+div, aside, section {
+    background-color: #ABCFE7;
+}
+
+div {
+    height: 80px;
+}
+
+aside {
+    height: 100px;
+}
+
+section {
+    height: 300px;
+}
+
+footer {
+    height: 70px;
+    background-color: #8800FD;
+}
